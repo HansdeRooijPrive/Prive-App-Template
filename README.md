@@ -1,9 +1,9 @@
-# app-template-prive
+# Prive-App-Template
 
 Sjabloon (GitHub *template repository*) voor een **privé** web-app op het
 OTAP-platform. Een nieuwe app maak je door van deze repo een nieuwe repo te
 genereren (`prive-<app>`). De CI/CD komt uit
-[`otap-ci`](https://github.com/HansdeRooijPrive/otap-ci).
+[`OTAP-CI`](https://github.com/HansdeRooijPrive/OTAP-CI).
 
 ## Snel starten
 ```bash
@@ -30,5 +30,5 @@ Placeholders die `build.py` invult: `{{APP_NAME}}`, `{{APP_SHORT}}`,
 | `development` | Test | `…github.io/<repo>/test/` |
 
 `index.html` (productie-build) staat ingecheckt; `CI` bewaakt dat die overeenkomt
-met `src/`. Push naar een branch → `otap-ci` bouwt en publiceert de bijbehorende
+met `src/`. Push naar een branch → `OTAP-CI` bouwt en publiceert de bijbehorende
 omgeving.
