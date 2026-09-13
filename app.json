@@ -1,4 +1,5 @@
 {
+  "platform": "v2",
   "name": "Privé Demo",
   "short_name": "Demo",
   "storage_key": "prive-demo",
