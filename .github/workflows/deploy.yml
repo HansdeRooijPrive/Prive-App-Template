@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write   # nodig voor een unieke Pages-publicatieversie (zie OTAP-CI README)
   pages: write
   id-token: write
 
